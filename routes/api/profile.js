@@ -22,7 +22,7 @@ router.get('/get', async (req, res) => {
 })
 
 router.get("/getForm", (req, res) => {
-    res.render("pageUI");
+    res.render("UI");
   });
 
 //Getting all shipwrecks with pagination and optional depth filter
